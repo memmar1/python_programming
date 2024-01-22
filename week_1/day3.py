@@ -70,7 +70,24 @@ import datetime
 
 #random numbers
 import random
-z= ["q","2","t"]
-for i in range(2):
-    x = random.choice(z)
-    print (x)
+z= ["q","2","t","p","78"]
+for i in range(4):     #prints in range of 4 any 4 random numbers ie it etrates 4 times 
+    i = random.choice(z)
+    print (i)
+
+numbers = [4,2,5,4,5,6,7]
+for i in range(len(numbers)):
+    numbers[i] = numbers[i] * 2
+    print(numbers[i])
+
+print(z[1:3])  #splicing a list
+print(z[:3])  #splicing a list
+print(z[3:])  #splicing a list
+print(type(z)) 
+numbers.append("9") 
+print(numbers)
+print(3 in numbers)
+print(12 in numbers)
+z.sort()
+print(z)
+

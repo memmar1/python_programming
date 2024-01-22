@@ -18,3 +18,19 @@ theset.remove("banana")   #removing an element
 theset.add("tree")      #adds tree
 print(theset,theset2)   #prints the sets differentlhy
 print(theset)
+
+#list
+z = ["glen", 4 , [3,4], "sam", "peter"]
+print (len(z))
+for x in z:
+    print("happy new year: ", x)
+print (",,,,,,,,,,,,,,,")
+print(z[3])
+
+for i in range(len(z)):
+    i = z[i]
+    print("happy new year: ", i)
+
+z[2] = 45   #lists are mutable you can change the items in it.
+print(z)
+
