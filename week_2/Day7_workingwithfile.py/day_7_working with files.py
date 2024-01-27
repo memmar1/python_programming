@@ -2,9 +2,10 @@
 
 f = open("week_2\Day7_workingwithfile.py\sample.txt")  #copy the relative path
 
-#print(f.read())
-#print(f.read(3))  #getting the characters
-#print(type(f.read()))
+print(f.read())
+print(f.read(3))
+print(f.read())  #getting the characters
+print(type(f.read()))
 
 """
 first_line = f.readline()   #only gives the first line
@@ -12,10 +13,10 @@ second_line = f.readline()   #for printing the second line only if you do the fu
 print(first_line, second_line)
 """
 
-"""
+
 for x in f:
     print(x)
-    """
+    
 f.close()  #closes the file
 
 #first_line = f.readline()  #this will print an error since you have closed the file

@@ -42,3 +42,7 @@ for char in string4:
 """
 #spliting a string
 print("split string:", string1.split(" "))
+
+print("the index of p:",string1.find("p"))
+
+
