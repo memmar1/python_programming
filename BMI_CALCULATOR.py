@@ -1,10 +1,4 @@
 
-name1 = input("Enter you name:" )
-age = int(input("Enter your age"))
-weight = int(input("enter you weight in kgs: "))
-height = int(input("enter you height in m: "))
-
-
 def bni_calculator(name1, weight,height):
     bni = weight / (height**2)
     print(f"bmi: ",bni)
@@ -21,6 +15,11 @@ def bni_calculator(name1, weight,height):
     else:
         print( name1, "of", age, "year")
         return "You are orbess."
+
+name1 = input("Enter you name: " )
+age = int(input("Enter your age: "))
+weight = int(input("enter you weight in kgs: "))
+height = int(input("enter you height in m: "))
 
 result = bni_calculator(name1, weight,height)
 print(result)
